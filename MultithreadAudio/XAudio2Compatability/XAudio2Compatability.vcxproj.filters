@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="XAudio2_7">
+      <UniqueIdentifier>{f384d717-b3da-4321-b37b-5ddeadb7ec59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceNodeThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReadAndChunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCoordinatorThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoadThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveOutClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoXA2Include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vcsversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\audiodefs.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\comdecl.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D2D1.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D2D1Helper.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D2DBaseTypes.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D2Derr.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3d9.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3d9caps.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3d9types.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D10.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D10_1.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D10_1shader.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D10effect.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3d10misc.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3d10sdklayers.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D10shader.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D11.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D11SDKLayers.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3D11Shader.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3Dcommon.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3Dcompiler.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DCSX.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9anim.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9core.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9effect.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9math.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9mesh.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9shader.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9shape.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9tex.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx9xof.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX10.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\d3dx10async.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX10core.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX10math.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX10mesh.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX10tex.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX11.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX11async.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX11core.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\D3DX11tex.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\Dcommon.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dinput.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dinputd.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dsconf.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dsetup.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dsound.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\DWrite.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dxdiag.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\DxErr.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dxfile.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\DXGI.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\DXGIFormat.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\DXGIType.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\dxsdkver.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\gameux.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\PIXPlugin.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\rmxfguid.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\rmxftmpl.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\rpcsal.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\X3DAudio.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\xact3.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\xact3d3.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\xact3wb.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XAPO.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XAPOBase.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XAPOFX.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XAudio2.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XAudio2fx.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XDSP.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\XInput.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\xma2defs.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxJun2010\Include\xnamath.h">
+      <Filter>XAudio2_7</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioEngineCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFileReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceNodeThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReadAndChunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCoordinatorThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoadThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveOutClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\dxJun2010\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+    <None Include="..\dxJun2010\Include\d3dx9math.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+    <None Include="..\dxJun2010\Include\D3DX10math.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+    <None Include="..\dxJun2010\Include\xnamathconvert.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+    <None Include="..\dxJun2010\Include\xnamathmatrix.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+    <None Include="..\dxJun2010\Include\xnamathmisc.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+    <None Include="..\dxJun2010\Include\xnamathvector.inl">
+      <Filter>XAudio2_7</Filter>
+    </None>
+  </ItemGroup>
+</Project>
